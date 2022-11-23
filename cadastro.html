@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="author" content="KF">
+
+    <meta name="description" content="xxxxxxxxxxxx">
+
+    <link rel="stylesheet" type="text/css" href="estilol.css" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <title>Ficha de cadastro</title>
+
+
+</head>
+
+<body class="cadastro">
+
+    <ul>
+        <li><a href="trabalho_de_front.html">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+                <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5Z"/>
+                <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6Z"/>
+              </svg> Home</a></li>
+    </ul>
+
+
+    <form class="form" action="">
+
+        <fieldset>
+            <!--area de cabeçalho-->
+            <header>
+
+                <legend class="title">
+
+                    cadastre-se
+
+                </legend>
+            </header>
+            <br><br>
+
+            <!--caixa para colocar nome-->
+
+            <!--icone do bootstrap-->
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill"
+                viewBox="0 0 16 16">
+                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+            </svg>
+            <label for="fname">Nome: </label>
+            <input class="InputBox" type="text" id="fname" name="fname"><br>
+
+            <!--calocar email-->
+            <!--icone do bootstrap-->
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                <path
+                    d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+            </svg>
+
+            <label for="email">Email: </label>
+
+            <input class="InputBox" type="email" id="email" name="email" placeholder="exemplo@xxxx.com.br"><br>
+
+            <!--caixa para colocar telefone-->
+            <!--icone do bootstrap-->
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+            </svg>
+
+            <label for="tel">Telefone: </label>
+
+            <input class="InputBox" type="tel" id="tel" placeholder="(99) 99999-9999"><br>
+
+
+
+            <!--um campo para definir senha-->
+            <!--icone bootstrap-->
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-eye-slash-fill" viewBox="0 0 16 16">
+                <path
+                    d="m10.79 12.912-1.614-1.615a3.5 3.5 0 0 1-4.474-4.474l-2.06-2.06C.938 6.278 0 8 0 8s3 5.5 8 5.5a7.029 7.029 0 0 0 2.79-.588zM5.21 3.088A7.028 7.028 0 0 1 8 2.5c5 0 8 5.5 8 5.5s-.939 1.721-2.641 3.238l-2.062-2.062a3.5 3.5 0 0 0-4.474-4.474L5.21 3.089z" />
+                <path
+                    d="M5.525 7.646a2.5 2.5 0 0 0 2.829 2.829l-2.83-2.829zm4.95.708-2.829-2.83a2.5 2.5 0 0 1 2.829 2.829zm3.171 6-12-12 .708-.708 12 12-.708.708z" />
+            </svg>
+
+            <label for="senha">Defina sua senha</label><br>
+
+            <input class="ImputBox" type="password" id="senha" name="senha"><br>
+
+            <input type="submit" value="Cadastrar" class="btn btn-primary">
+
+            <input type="reset" value="Limpar" class="btn btn-danger">
+
+
+        </fieldset>
+
+    </form>
+
+
+</body>
+
+</html>
