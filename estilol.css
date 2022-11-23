@@ -1,0 +1,97 @@
+.td{
+    background-color: rgb(250, 215, 169);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sub{
+    background-color: rgb(242, 162, 178);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #111;
+}
+.tt {
+    text-align: center;
+    font-family: cursive;
+}
+footer {
+    position: static;
+    bottom: 0;
+    background-color: #333;
+    color: #FFF;
+    width: 100%;
+    height: 50px;    
+    text-align: center;
+    line-height: 50px;
+}
+.resenha{
+    background-color:  rgb(250, 215, 169);
+}
+.estudo{
+    background-color:  rgb(250, 215, 169); 
+    font-size: large;
+}
+.contato{
+    background-color:  rgb(250, 215, 169);
+}
+
+.cadastro{
+    background-color: rgb(250, 215, 169);
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    padding: 15px;
+}
+
+
+.InputBox{
+padding: 0px;
+margin: auto;
+text-align: center;
+border-radius: 40px;
+position: relative;
+border-bottom: 1px solid;
+outline: none;
+background-color: rgb(248, 182, 75);
+}
+
+.form{
+    
+    position: relative;
+    justify-content: center;
+    background: #fff;
+    border-radius: 10px;
+    padding: 60px;
+    width: min-content;
+}
+
+legend{
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+.title{
+    background-color: rgb(248, 182, 75);
+}
